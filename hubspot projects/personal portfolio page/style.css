@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+    /* margin: 100px; */
+    padding: 30px;
+}
+
+img {
+     opacity: 1;
+     height: 20vh;
+     width: 20vh;
+     border-radius: 50%;
+     border: 3px solid red
+      
+}
+
+img:hover{
+    box-shadow: 0 0 20px 10px greenyellow;
+    opacity: 0.5;
+}
+
+header,.aboutMe,.work,footer{
+    background-color: #b1bbc3;
+    border: 5px solid salmon;
+     
+}
+.work h2, .aboutMe h2, .aboutMe p {
+    padding: 20px;
+    text-align: justify;
+}
+
+.project1, .project2, .project3{
+    border: 1px solid rgb(246, 9, 9);
+    padding: 50px;
+    margin: 50px;
+    background-color: aquamarine;
+}
+
+/* .work{
+    border: 3px solid green;
+} */
+
+div h3{
+    text-align: center;
+}
+
+footer{
+    height: 15vh;
+    /* border: 3px solid rgb(34, 34, 139); */
+}
+
+footer h4{
+    text-align: center;
+    padding: 50px;
+}
