@@ -33,10 +33,12 @@ header,.aboutMe,.work,footer{
 }
 
 .project1, .project2, .project3{
+    width: 35%;
     border: 1px solid rgb(246, 9, 9);
     padding: 50px;
     margin: 50px;
     background-color: aquamarine;
+    display: inline-block;
 }
 
 /* .work{
