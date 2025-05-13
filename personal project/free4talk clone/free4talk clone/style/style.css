@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+/* ------------ body er structure ------------- */
+body{
+    background-image: url(../images/bg\ free4talk.jpeg);
+    color: white;  /* pura body er sob element er color */
+    margin: auto 200px;
+    /* height: 100%;
+    flex: 1; */
+}
+
+/* ------------ header1 er structure ------------- */
+.header1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* ------------ header2 er structure ------------- */
+.header2{
+     display: flex;
+     justify-content: center;
+}
+/* ------------ header3 er structure ------------- */
+.header3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.header3> *{
+    background: rgb(138, 132, 132);
+}
+
+/* ------------ header4 er structure ------------- */
+.header4{
+    margin-top: 20px;
+}
+.header4ChildOne .searchForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchElement{
+    display: flex;
+    width: 84%; 
+    /* align-items: start; */
+}
+
+.searchElement>input{
+    width: 85%;
+}
+.searchElement>button{
+    width: 15%;
+}
+
+/* .btn{
+    display: inline;
+} */
+
+.buttonContainer{
+    display: flex;
+    width: 15%;
+    border: 1px solid blueviolet;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+
+.btn{
+    text-align: center;
+    width: 33.33%;
+    border-right: 1px solid blueviolet;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: rgb(93, 86, 86);
+    color: blueviolet;
+}
+
+/* ------------ header5 er structure ------------- */
+
+.header5{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.desh{
+    border: 1px solid blueviolet;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgb(150, 96, 200);
+    cursor: pointer;
+}
+
+
+/* ------------ footer er structure ------------- */
+
+footer{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* ----------ei tuku bujhi nai, chatGpt theke copy mere bosaichi ----------- */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
