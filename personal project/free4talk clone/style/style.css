@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* ------------ body er structure ------------- */
+body{
+    background-image: url(../images/bg\ free4talk.jpeg);
+    color: white;  /* pura body er sob element er color */
+    margin: auto 200px;
+}
+
+/* ------------ header1 er structure ------------- */
+.header1{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------------ header2 er structure ------------- */
+.header2{
+     display: flex;
+     justify-content: center;
+}
+/* ------------ header3 er structure ------------- */
+.header3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header3> *{
+    background: rgb(138, 132, 132);
+}
+
+/* ------------ header4 er structure ------------- */
+form>input{
+    width: 70%;
+}
+form>button{
+    width: 15%;
+}
+form{
+    display: inline;
+}
+
+span{
+    border: 1px solid blue;
+}
+.container{
+    display: inline;
+
+    
+
+}
